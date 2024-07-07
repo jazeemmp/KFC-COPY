@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- Nav section stars from here -->
@@ -20,6 +20,7 @@
       <hr />
       <!-- Nav bottom section stars from here -->
       <div class="bottom-section">
+        <i class="fa-solid menu fa-bars"></i>
         <div class="left-section">
           <img src="assets/logo.svg" alt="" />
           <div>
@@ -46,7 +47,8 @@
         <button>Start Order</button>
       </div>
       <div class="banner">
-        <img src="assets/banner.jpg" alt="" />
+        <img class="pc" src="assets/banner.jpg">
+        <img class="mobile" src="assets/mobile.jpeg">
       </div>
     </header>
     <!-- Header Section ends here -->
@@ -193,8 +195,8 @@
                 <button>Apply Offer</button>
               </div>
             </div>
-          </div>
-          <div class="card-section">
+         
+          <!-- <div class="card-section"> -->
             <div class="card-two">
               <img width="400px" src="assets/CHKZINGER.jpg" alt="" />
               <h1>FREE CHIKEN...</h1>
@@ -243,7 +245,8 @@
                 <button>Apply Offer</button>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
+        </div>
           <span class="right">></span>
         </div>
       </div>
@@ -251,6 +254,7 @@
       <!-- bottom footer stars here -->
       <div class="bottom-footer">
         <img class="footer-logo" src="assets/KFC_Logo.svg" alt="" />
+      <div class="desktop-view">
         <div class="links">
           <ul>
             <li>Legal</li>
@@ -281,11 +285,54 @@
             <li>Privacy Policy</li>
           </ul>
         </div>
+      </div>
+      <div class="mobile-view">
+        <div class="dropdown">
+          <button class="dropbtn">Legal</button>
+          <div class="dropdown-content">
+              <a href="#terms">Terms and Conditions</a>
+              <a href="#privacy">Privacy Policy</a>
+              <a href="#disclaimer">Disclaimer</a>
+              <a href="#caution">Caution Notice</a>
+          </div>
+      </div>
+      
+      <div class="dropdown">
+          <button class="dropbtn">KFC India</button>
+          <div class="dropdown-content">
+              <a href="#about">About KFC</a>
+              <a href="#care">KFC Care</a>
+              <a href="#careers">Careers</a>
+              <a href="#past">Our Golden Past</a>
+          </div>
+      </div>
+  
+      <div class="dropdown">
+          <button class="dropbtn">KFC Food</button>
+          <div class="dropdown-content">
+              <a href="#menu">Menu</a>
+              <a href="#order">Order Lookup</a>
+              <a href="#gift">Gift Card</a>
+              <a href="#nutrition">Nutrition & Allergen</a>
+          </div>
+      </div>
+  
+      <div class="dropdown">
+          <button class="dropbtn">Support</button>
+          <div class="dropdown-content">
+              <a href="#help">Get Help</a>
+              <a href="#contact">Contact Us</a>
+              <a href="#feedback">KFC Feedback</a>
+              <a href="#privacy">Privacy Policy</a>
+          </div>
+      </div>
+  
+      </div>
         <p class="location-footer">
           <a href=""><img src="assets/location.svg" alt="" />Find a KFC</a>
         </p>
-        <img class="download" src="assets/google_play.svg" alt="" />
-        <img class="download" src="assets/apple.svg" alt="" />
+        <!-- <img class="download" src="assets/google_play.svg" alt="" />
+        <img class="download" src="assets/apple.svg" alt="" /> -->
       </div>
       <p class="copright">
         Copyright © KFC Corporation 2024 All rights reserved
@@ -312,6 +359,7 @@
         scrollContainer.style.scrollBehavior = "smooth";
         scrollContainer.scrollLeft += 350;
       });
+      
     </script>
   </body>
 </html>
