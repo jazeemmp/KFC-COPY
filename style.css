@@ -441,7 +441,7 @@ footer {
     display: block;
   }
   section {
-    margin: 70px 0px 0px 0px;
+    margin: 70px 0px 0px 10px;
     justify-content: center;
     align-items: center;
     width: 80%;
